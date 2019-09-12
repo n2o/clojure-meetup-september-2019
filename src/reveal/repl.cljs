@@ -100,9 +100,14 @@
 
   '()
 
+  #{"bar" "foo"}
+
+  {}
+  {"key" "value"}
+
   (def mymap
-    #{"key" "value",
-      :clojure :rocks})
+    {"key" "value",
+     :clojure :rocks})
 
   (get mymap "key")
   (get mymap :clojure)
