@@ -24,7 +24,7 @@
      "Institut für Informatik" [:br]
      "Heinrich-Heine-Universität Düsseldorf" [:br] [:br]
      "meter@hhu.de" [:br]
-     "@cmeter_"]]])
+     "@cmeter_ / @clojure_dus"]]])
 
 (def slide-2
   (section-with-title
