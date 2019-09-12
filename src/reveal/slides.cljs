@@ -53,10 +53,24 @@
 
 (loop (print (eval (read))))"]]))
 
+(def slide-links
+  (section-with-title
+    "Aufgaben"
+    [:p "Vorbereitete Aufgaben mit Web-IDE" [:br]
+     [:a {:href "https://github.com/clojuredus/clojure-coding-dojo"}
+      "github.com/clojuredus/clojure-coding-dojo"]]
+    [:p "Aufgaben im Browser, ohne Konfiguration:" [:br]
+     [:a {:href "http://clojurescriptkoans.com/"}
+      "ClojureScriptKoans"]]
+    [:p "Grundlegende Aufgaben, um Clojure kennenzulernen:"
+     [:a {:href "http://www.4clojure.com/"} "4clojure.com"]]
+    ))
+
 (defn all
   "Add here all slides you want to see in your presentation."
   []
   [slide-1
    slide-2
    slide-history
-   slide-repl])
+   slide-repl
+   slide-links])
